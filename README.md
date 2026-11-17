@@ -1,13 +1,12 @@
 # CodeAlpha C Programming Internship Tasks
 
-This folder contains four separate C programs based on the supplied CodeAlpha task sheet.
+This folder contains three completed C programs based on the supplied CodeAlpha task sheet.
 
 ## Files
 
 1. `task1_calculator.c` — Addition, subtraction, multiplication and division using `switch`.
 2. `task2_matrix_operations.c` — Matrix addition, multiplication and transpose using functions and 2D arrays. Matrix dimensions are limited to 10 x 10.
 3. `task3_student_management.c` — Menu-driven student records: add, display, search, update and delete. Uses a structure and binary file storage (`students.dat`).
-4. `task4_banking_system.c` — Educational mini banking program: deposit, withdraw, balance enquiry and exit. Uses a structure and binary file storage (`account.dat`).
 
 ## Compile and run (VS Code terminal with GCC)
 
@@ -28,12 +27,7 @@ gcc task3_student_management.c -o students
 ./students
 ```
 
-```bash
-gcc task4_banking_system.c -o banking
-./banking
-```
-
-On Windows PowerShell, run the generated executable as `./calculator.exe`, `./matrix.exe`, `./students.exe`, or `./banking.exe`.
+On Windows PowerShell, run the generated executable as `./calculator.exe`, `./matrix.exe`, `./students.exe`, or `.
 
 ## Important notes
 
